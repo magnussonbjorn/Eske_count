@@ -1,0 +1,7 @@
+ #!/bin/bash
+
+cd /home/pi/eske_count
+
+python eskecounter.py &
+python tot_count.py & 
+python log_report.py &
